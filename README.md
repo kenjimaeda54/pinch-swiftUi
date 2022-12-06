@@ -1,10 +1,10 @@
 # Pinch 
-Aplicativo completo em relacaao a gestos em swift</br>
-Pessoa pode fazer o famoso pinch, aumentar dinimunuir a imagem,volar a qualquer momento ao tamanho original alem de possuir botoes de controlers
+Aplicativo completo em relação a gestos em swift</br>
+Pessoa pode fazer o famoso pinch, aumentar, diminuir a imagem, volar a qualquer momento ao tamanho original além de possuir botoes de controlers
 
 ## Feature
-- Nos movimentos usando gesture e importante o uso de withAnimation, assim o movimento sera mais suave
-- Para posibilidade de aplicar movimento de pincel onde voce aplica ou dinumui com os dedos a dimensao da imagem usamo o MagnificationGesture
+- Nos movimentos usando gesture é importante o uso de withAnimation, assim o movimento sera mais suave.
+- Para possibilidade de aplicar movimento de pincel(aplica ou diminui com os dedos) usamos  o geture MagnificationGesture
 
 
 ```swift
@@ -54,10 +54,10 @@ Pessoa pode fazer o famoso pinch, aumentar dinimunuir a imagem,volar a qualquer 
 ```
 
 ##
-- Cuidados importatnes no momento de construi interfaces 
-- Para apaercer o titulo do navigationTitle essencial colocar conteudos dentros vazio nao ira aparecer
-- Outro detalhe e overlay caso nao fica na medida desejada preciza no Zstack aplicar Color.Clear
-- Por fim cuidado com imagem a propreidade resizable esta acima de todas pois inverso nao conseguira usar
+- Cuidados importantes no momento de construí interfaces 
+- Para aparecer o título do navigationTitle essencial colocar conteúdos dentro do navigation, vazio não ira aparecer o título
+- Outro detalhe e overlay caso não fica na medida desejada precisa no Zstack aplicar Color.Clear
+- Por fim cuidado com imagem a propriedade resizable esta acima de todas, pois inverso não conseguira usar
 
 ```swift
 ZStack {
@@ -92,7 +92,7 @@ Color.clear
 
 ```
 ##
-- Para gerar listas de forma dinamica,aqui usamos a palavra ForEach
+- Para gerar listas de forma dinâmica, aqui usamos a palavra ForEach
 
 
 ```swift
